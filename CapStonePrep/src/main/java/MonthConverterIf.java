@@ -10,7 +10,7 @@ public class MonthConverterIf {
 
         String userInput = scan.nextLine();
 
-        int number = Integer.parseInt((userInput));
+        int number = Integer.parseInt(userInput);
 
         if(number == 1){
             System.out.println("January");
