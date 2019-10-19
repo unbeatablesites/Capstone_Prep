@@ -18,15 +18,16 @@ public class ArrayFun5Words {
 
         int i = 0;
 
-        while (i < 5){
+//        while (i < 5){
 
             for(i = 0; i < 5; i++){
                 System.out.println("Enter a word to enter into the array");
                 array[i] = scan.nextLine();
             }
-        }
-
             System.out.println(Arrays.toString(array));
+//        }
+
+
 
     }
 }
