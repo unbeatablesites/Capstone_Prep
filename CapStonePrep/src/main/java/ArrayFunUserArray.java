@@ -1,8 +1,15 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class ArrayFunUserArray {
 
     public static void main(String[] args) {
+
+        array();
+
+    }
+
+    public static void array(){
 
 
         Scanner scan = new Scanner(System.in);
@@ -36,6 +43,13 @@ public class ArrayFunUserArray {
         String userInput5 = scan.nextLine();
 
         int number5 = Integer.parseInt(userInput5);
+
+        int arr[] = {number1,number2,number3,number4,number5};
+
+        String stringArr = Arrays.toString(arr);
+
+        System.out.println(stringArr);
+
 
 
 
