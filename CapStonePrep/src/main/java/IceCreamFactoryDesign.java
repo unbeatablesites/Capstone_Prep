@@ -6,6 +6,14 @@ public class IceCreamFactoryDesign {
     private int vacationTime;
     private int sickDays;
 
+    public IceCreamFactoryDesign(int emplHours, String emplFName, String emplLName, int vacationTime, int sickDays) {
+        this.emplHours = emplHours;
+        this.emplFName = emplFName;
+        this.emplLName = emplLName;
+        this.vacationTime = vacationTime;
+        this.sickDays = sickDays;
+    }
+
     public int getEmplHours() {
         return emplHours;
     }
