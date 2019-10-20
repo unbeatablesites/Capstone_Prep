@@ -2,9 +2,9 @@ public class IceCreamClassDesign {
 
     public int total;
     public int addTopping;
-    public int normalScoop
+    public int normalScoop;
     public int addScoop;
-    public String  size;
+    public String size;
     public boolean coneOrBowl;
 
     public int getTotal() {
