@@ -12,7 +12,7 @@ public class TeleTest {
         assertTrue(tel.powerOn());
 
     }
-
+//should be false
     @Test
     public void powerOff() {
 
