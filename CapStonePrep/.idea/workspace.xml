@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d26244d-4704-4fdc-a773-6fae18fa819d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Tele.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TeleTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,24 +19,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ConverterApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/CalculatorObject.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/CalculatorMainObject.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -69,11 +50,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/CalculatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="65">
+            <state relative-caret-position="108">
               <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Tele.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TeleTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -164,6 +163,8 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/Calculator.java" />
         <option value="$PROJECT_DIR$/src/test/java/CalculatorTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Tele.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TeleTest.java" />
       </list>
     </option>
   </component>
@@ -258,9 +259,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CalculatorTest.shouldDivideTwoPositiveNumbers">
-    <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Calculator" />
+  <component name="RunManager" selected="JUnit.TeleTest">
+    <configuration name="Tele" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tele" />
       <module name="CapStonePrep" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -275,31 +276,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTest.shouldDivideNegativeNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TeleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CapStonePrep" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CalculatorTest" />
-      <option name="METHOD_NAME" value="shouldDivideNegativeNumbers" />
+      <option name="MAIN_CLASS_NAME" value="TeleTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TeleTest.powerOff" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CapStonePrep" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TeleTest" />
+      <option name="METHOD_NAME" value="powerOff" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTest.shouldDivideTwoPositiveNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TeleTest.shouldReturnTrueForPowerOn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CapStonePrep" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CalculatorTest" />
-      <option name="METHOD_NAME" value="shouldDivideTwoPositiveNumbers" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CalculatorTest.shouldNotdivideByZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CapStonePrep" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CalculatorTest" />
-      <option name="METHOD_NAME" value="shouldNotdivideByZero" />
+      <option name="MAIN_CLASS_NAME" value="TeleTest" />
+      <option name="METHOD_NAME" value="shouldReturnTrueForPowerOn" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -307,11 +307,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CalculatorTest.shouldDivideTwoPositiveNumbers" />
-        <item itemvalue="JUnit.CalculatorTest.shouldDivideNegativeNumbers" />
-        <item itemvalue="Application.Calculator" />
+        <item itemvalue="JUnit.TeleTest" />
+        <item itemvalue="JUnit.TeleTest.powerOff" />
+        <item itemvalue="JUnit.TeleTest.shouldReturnTrueForPowerOn" />
+        <item itemvalue="Application.Tele" />
         <item itemvalue="JUnit.CalculatorTest" />
-        <item itemvalue="JUnit.CalculatorTest.shouldNotdivideByZero" />
       </list>
     </recent_temporary>
   </component>
@@ -452,16 +452,17 @@
       <option name="project" value="LOCAL" />
       <updated>1572116637142</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Unit testing practice">
+      <created>1572121052432</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1572121052432</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CalculatorTest_shouldDivideTwoPositiveNumbers - 2019.10.26 at 16h 04m 37s.xml">
-      <configuration name="CalculatorTest.shouldDivideTwoPositiveNumbers" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculatorTest_shouldNotdivideByZero - 2019.10.26 at 16h 08m 51s.xml">
-      <configuration name="CalculatorTest.shouldNotdivideByZero" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CalculatorTest_shouldNotdivideByZero - 2019.10.26 at 16h 09m 29s.xml">
       <configuration name="CalculatorTest.shouldNotdivideByZero" configurationId="JUnit" />
     </history-entry>
@@ -486,12 +487,18 @@
     <history-entry file="CalculatorTest_shouldDivideNegativeNumbers - 2019.10.26 at 16h 16m 41s.xml">
       <configuration name="CalculatorTest.shouldDivideNegativeNumbers" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CalculatorTest_shouldDivideTwoPositiveNumbers - 2019.10.26 at 16h 16m 59s.xml">
+      <configuration name="CalculatorTest.shouldDivideTwoPositiveNumbers" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorTest - 2019.10.26 at 16h 24m 28s.xml">
+      <configuration name="CalculatorTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.13161659" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13161659" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -613,7 +620,8 @@
     <MESSAGE value="Ice Cream Design" />
     <MESSAGE value="Ice Cream Factory Design" />
     <MESSAGE value="Ice Cream Factory Design Added constructors" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ice Cream Factory Design Added constructors" />
+    <MESSAGE value="Unit testing practice" />
+    <option name="LAST_COMMIT_MESSAGE" value="Unit testing practice" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/CapStonePrep$SomeMath.ic" NAME="SomeMath Coverage Results" MODIFIED="1571514217419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
@@ -794,10 +802,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Tele.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/CalculatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
+        <state relative-caret-position="108">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TeleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
