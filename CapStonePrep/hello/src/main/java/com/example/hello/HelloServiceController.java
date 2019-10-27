@@ -9,7 +9,7 @@ public class HelloServiceController {
     @RequestMapping(value = "/name/{name}",method = RequestMethod.GET)
     @ResponseStatus(HttpStatus.OK)
     public String whatsYourName(@PathVariable String name){
-        return "It's really nice to meet you " + name;
+        return "It's really nice to meet you " + name + " !";
     }
 
 }
