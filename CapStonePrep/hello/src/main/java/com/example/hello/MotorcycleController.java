@@ -60,7 +60,6 @@ public class MotorcycleController {
 
         Motorcycle moto = new Motorcycle();
 
-
         moto.setVin("33339");
         moto.setMake("LandRover");
         moto.setModel("Discovery");
