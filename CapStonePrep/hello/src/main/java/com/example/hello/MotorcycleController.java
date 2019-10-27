@@ -40,6 +40,17 @@ public class MotorcycleController {
 
     }
 
+    @RequestMapping(value = "/motorcycle/{motoId}",method = RequestMethod.DELETE)
+    @ResponseStatus(HttpStatus.OK)
+    public void deleteMotorcycle(@PathVariable int motoId){
 
+        if(motoId < 0 ){throw new IllegalArgumentException("Please enter a number greater than 0");}
+
+    }
+
+
+    @RequestMapping(value = "/motorcycle/{motoId}")
+    @ResponseStatus(HttpStatus.NO_CONTENT)
+    public void updateMoto(@RequestBody Motorcycle motorcycle, @PathVariable int motoId){}
 
 }
