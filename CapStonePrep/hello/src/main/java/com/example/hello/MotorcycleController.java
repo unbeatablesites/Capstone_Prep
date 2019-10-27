@@ -20,6 +20,25 @@ public class MotorcycleController {
         return motorcycle;
     }
 
+    @RequestMapping(value = "/motorcycle/{motoId}",method = RequestMethod.GET)
+    @ResponseStatus(HttpStatus.OK)
+    public Motorcycle getMotoById(@PathVariable int motoId){
+
+        if(motoId < 1){throw new IllegalArgumentException(" The id must be greater than 0");
+        }
+
+        Motorcycle moto = new Motorcycle();
+
+        moto.setId(motoId);
+        moto.setVin("33339");
+        moto.setMake("LandRover");
+        moto.setModel("Discovery");
+        moto.setYear("2001");
+        moto.setColor("Gold");
+
+        return moto;
+
+    }
 
 
 
