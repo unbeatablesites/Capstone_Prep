@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d26244d-4704-4fdc-a773-6fae18fa819d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Tele.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TeleTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -68,11 +66,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/TeleTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="221">
+              <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -86,7 +84,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/IceCreamFactoryDesign.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
@@ -177,8 +175,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="41" />
-    <option name="y" value="216" />
+    <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="877" />
   </component>
@@ -459,46 +456,60 @@
       <option name="project" value="LOCAL" />
       <updated>1572121052432</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Unit testing practice">
+      <created>1572122756668</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1572122756668</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Unit testing practice">
+      <created>1572123811596</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1572123811596</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CalculatorTest_shouldNotdivideByZero - 2019.10.26 at 16h 09m 29s.xml">
-      <configuration name="CalculatorTest.shouldNotdivideByZero" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculatorTest_shouldNotdivideByZero - 2019.10.26 at 16h 09m 51s.xml">
-      <configuration name="CalculatorTest.shouldNotdivideByZero" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculatorTest_shouldNotdivideByZero - 2019.10.26 at 16h 10m 18s.xml">
-      <configuration name="CalculatorTest.shouldNotdivideByZero" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculatorTest_shouldNotdivideByZero - 2019.10.26 at 16h 11m 48s.xml">
-      <configuration name="CalculatorTest.shouldNotdivideByZero" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculatorTest_shouldNotdivideByZero - 2019.10.26 at 16h 11m 59s.xml">
-      <configuration name="CalculatorTest.shouldNotdivideByZero" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculatorTest - 2019.10.26 at 16h 14m 06s.xml">
-      <configuration name="CalculatorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculatorTest_shouldDivideNegativeNumbers - 2019.10.26 at 16h 16m 30s.xml">
-      <configuration name="CalculatorTest.shouldDivideNegativeNumbers" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculatorTest_shouldDivideNegativeNumbers - 2019.10.26 at 16h 16m 41s.xml">
-      <configuration name="CalculatorTest.shouldDivideNegativeNumbers" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CalculatorTest_shouldDivideTwoPositiveNumbers - 2019.10.26 at 16h 16m 59s.xml">
       <configuration name="CalculatorTest.shouldDivideTwoPositiveNumbers" configurationId="JUnit" />
     </history-entry>
     <history-entry file="CalculatorTest - 2019.10.26 at 16h 24m 28s.xml">
       <configuration name="CalculatorTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TeleTest_shouldReturnTrueForPowerOn - 2019.10.26 at 16h 42m 16s.xml">
+      <configuration name="TeleTest.shouldReturnTrueForPowerOn" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TeleTest_shouldReturnTrueForPowerOn - 2019.10.26 at 16h 42m 31s.xml">
+      <configuration name="TeleTest.shouldReturnTrueForPowerOn" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TeleTest_shouldReturnTrueForPowerOn - 2019.10.26 at 16h 44m 04s.xml">
+      <configuration name="TeleTest.shouldReturnTrueForPowerOn" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TeleTest_shouldReturnTrueForPowerOn - 2019.10.26 at 16h 44m 17s.xml">
+      <configuration name="TeleTest.shouldReturnTrueForPowerOn" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TeleTest_shouldReturnTrueForPowerOn - 2019.10.26 at 16h 44m 30s.xml">
+      <configuration name="TeleTest.shouldReturnTrueForPowerOn" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TeleTest_powerOff - 2019.10.26 at 16h 45m 03s.xml">
+      <configuration name="TeleTest.powerOff" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TeleTest_powerOff - 2019.10.26 at 16h 45m 20s.xml">
+      <configuration name="TeleTest.powerOff" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TeleTest - 2019.10.26 at 16h 45m 38s.xml">
+      <configuration name="TeleTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13161659" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13161659" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -510,7 +521,7 @@
       <window_info id="Job Explorer" order="9" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27261147" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.27261147" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -746,13 +757,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/IceCreamFactoryDesign.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="117" selection-start-line="8" selection-start-column="117" selection-end-line="8" selection-end-column="117" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ConvertIf.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="986">
@@ -818,8 +822,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TeleTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="221">
+          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/IceCreamFactoryDesign.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="117" selection-start-line="8" selection-start-column="117" selection-end-line="8" selection-end-column="117" />
         </state>
       </provider>
     </entry>
