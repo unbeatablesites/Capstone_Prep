@@ -20,7 +20,7 @@ public class MotorcycleController {
         return motorcycle;
     }
 
-    @RequestMapping(value = "/motorcycle/{motoId}",method = RequestMethod.GET)
+    @RequestMapping(value = "/motorcycles/{motoId}",method = RequestMethod.GET)
     @ResponseStatus(HttpStatus.OK)
     public Motorcycle getMotoById(@PathVariable int motoId){
 
@@ -40,7 +40,7 @@ public class MotorcycleController {
 
     }
 
-    @RequestMapping(value = "/motorcycle/{motoId}",method = RequestMethod.DELETE)
+    @RequestMapping(value = "/motorcycles/{motoId}",method = RequestMethod.DELETE)
     @ResponseStatus(HttpStatus.OK)
     public void deleteMotorcycle(@PathVariable int motoId){
 
@@ -49,8 +49,25 @@ public class MotorcycleController {
     }
 
 
-    @RequestMapping(value = "/motorcycle/{motoId}")
+    @RequestMapping(value = "/motorcycles/{motoId}")
     @ResponseStatus(HttpStatus.NO_CONTENT)
     public void updateMoto(@RequestBody Motorcycle motorcycle, @PathVariable int motoId){}
+
+
+    @RequestMapping(value = "/motorcycles",method = RequestMethod.GET)
+    @ResponseStatus(HttpStatus.OK)
+    public Motorcycle getAllMoto(Motorcycle motoId){
+
+        Motorcycle moto = new Motorcycle();
+
+
+        moto.setVin("33339");
+        moto.setMake("LandRover");
+        moto.setModel("Discovery");
+        moto.setYear("2001");
+        moto.setColor("Gold");
+
+        return moto;
+    }
 
 }
