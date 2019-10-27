@@ -3,6 +3,9 @@ package com.example.hello;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
+import java.util.Random;
+
 @RestController
 public class MotorcycleController {
 
@@ -10,7 +13,14 @@ public class MotorcycleController {
     @ResponseStatus(HttpStatus.CREATED)
     public Motorcycle createMotorcycle(@RequestBody Motorcycle motorcycle){
 
+        Random randomId = new Random();
+
+        motorcycle.setId(randomId.nextInt(11));
+
         return motorcycle;
     }
+
+
+
 
 }
