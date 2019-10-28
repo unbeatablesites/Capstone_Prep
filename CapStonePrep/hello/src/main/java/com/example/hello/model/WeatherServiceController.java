@@ -1,5 +1,6 @@
 package com.example.hello.model;
 
+import com.example.hello.Conditions;
 import com.example.hello.Temprature;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
@@ -25,5 +26,23 @@ public class WeatherServiceController {
         temp.setCelsius((int) celsiusTemp);
         return temp;
     }
+
+    @RequestMapping(value = "/conditions/{zipCode}",method = RequestMethod.GET)
+    @ResponseStatus(HttpStatus.OK)
+    public Conditions getCurrent(@PathVariable String zipCode){
+
+        Conditions cond = new Conditions();
+
+        cond.setCelsius(88);
+        cond.setFahrenheit(31);
+        cond.setPrecipitation("rain");
+        cond.setSkies("cloudy");
+        cond.setWindDirection("North East");
+        cond.setWindSpeed(4);
+
+        return cond;
+    }
+
+
 
 }
